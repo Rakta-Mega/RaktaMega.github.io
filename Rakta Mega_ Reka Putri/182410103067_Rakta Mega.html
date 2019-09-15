@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Form</title>
+	<style type="text/css">
+		body{
+			background-image: url(Meong.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<form method="post" action="proses.html">
+		Nama <input type="text" name="Nama" placeholder="Nama Lengkap" required> <br>
+		NIM <input type="number" name="NIM" required> <br>
+		Password <input type="Password" name="Password" required> <br>
+		Jenis Kelamin <input type="radio" name="jeniskelamin" value="Laki-laki" required> Laki-laki <br>
+						<input type="radio" name="jeniskelamin" value="Perempuan" required> Perempuan <br>
+		Pendapat <required> <input type="checkbox" name="Setuju" value="Setuju" > Setuju <br>
+					<input type="checkbox" name="Tidak Setuju" value="Tidak Setuju"> Tidak Setuju <br>
+		<input type="submit" name="submit"> <br>
+
+	</form>
+</body>
+</html>
